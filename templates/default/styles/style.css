@@ -1,0 +1,71 @@
+/*------------------------------------------------------------------
+	ServicePlatform List
+-------------------------------------------------------------------*/
+.sp_list_venue { font-weight:bold; }
+.sp_list_location { font-size:.9em; opacity:0.75;}
+
+/*------------------------------------------------------------------
+	Venue
+-------------------------------------------------------------------*/
+#sp { margin-bottom:5px; font-family: Arial, Verdana, Helvetica, sans-serif;}
+.clear { clear:both; }
+#sp small { font-size:.9em }
+#sp .sm_norm { font-weight:normal;font-size:.8em }
+#sp_venue { margin-bottom:20px; font-size:1em; margin-bottom:10px;}
+#sp_venue #business_name { font-weight:bold; font-size:1.1em; }
+#sp_venue #locationmap { width:349px; height:300px }
+#sp_venue #location-map {float:right; border:1px solid #a78112; padding:3px; margin-left:5px; background:#f6de98 no-repeat url('../images/map_error.png') center center}
+#sp_venue p { margin-bottom:5px; line-height:1.1em;font-size:1.1em;}
+#sp_venue #details { margin-top:15px;}
+#sp_venue .print_menu {float:right;margin:0 10px 5px 0}
+#sp_list { font-size:12px; padding:10px;}
+#sp_list .full-menu {padding:5px;}
+#sp_list .left-menu {float:left; width:48%; padding:0 }
+#sp_list .right-menu {float:right; width:46%; padding:0 0 0 15px; margin:0 0 0 20px; border-left:1px solid #8FACBF }
+#sp_list .menu_content { margin-bottom:20px}
+#sp_list .menu_content h2 { font-size:1.2em; color:#131618; margin-top:0; margin-bottom:8px; }
+#sp_list .menu_content h2 span { font-size:.8em; font-weight:normal }
+
+#sp_list .menu_note { font-weight:normal;font-size:1em;font-style:italic;text-align:center;margin:-8px 0 9px 0 }
+#sp_list .group_note { font-weight:normal;font-size:1em;font-style:italic;text-align:center;margin:5px 0 -10px 0 }
+#sp_list #details { margin-top:15px }
+#sp_list dd { margin:0 }
+#sp_list dl { display:block; overflow:auto; font-weight:normal; margin: 0 0 0.7em 10px; background: url('../images/menu_dot.gif') repeat-x 0 14px }
+#sp_list dt, #sp dd.price { font-size:1em; font-weight:bold }
+#sp_list dl .mi_thumb { float:left; padding-right:5px }
+
+#sp_list dt { background-color:#fff; color:#6e3a4a; font-size:1.3em; font-weight:normal; float:left; padding-right:5px }
+
+#sp_list dd.price { color:#406F0D; background-color:#fff; font-weight:normal; font-size:16px; float:right; padding-left:5px; }
+#sp_list dd.description { color:#266c8f; font-size:1.1em; font-style:italic; font-weight:normal; line-height:20px; float:left; width:100%; padding: 3px 0 0 0; }
+
+#sp_list dd.item_options { font-size:1em; font-weight:normal; float:left; width:100%; text-align:center; color:#6e3a4a }
+#sp_list dd.item_options div { padding-bottom:3px;}
+#sp_list .item_tag { color:#f1f1f1; font-size:11px; font-weight:bold; padding:1px 3px 0; position:relative; text-transform:uppercase; top:-2px; margin-right:5px }
+#sp_list span.special { background:#579F09 }
+#sp_list span.new { background:#EF1E0E }
+#sp_list #stk {text-align:center;margin:15px 0 8px 0}
+#sp_list #stk span.item_tag {margin:0 3px 0 5px}
+
+#sp_list .menu_name { font-weight:bold; font-size:1.4em; margin-bottom:10px; background-color:#ececec; padding:5px; }
+#sp_list .menu_name span { font-weight:normal; font-size:.8em; }
+
+#sp_list .m_disabled, #sp_list h2.g_disabled, #sp_list .i_disabled { color:#aaa; background-image: url('../images/ico-16-close.png'); background-repeat:no-repeat; padding-left:22px}
+#sp_list .goptions { font-size:1em; text-align:center; padding:5px 0; color:#6e3a4a }
+#sp_list .goptions-title { font-size:1em; font-weight:bold; padding-bottom:3px }
+#sp_list .goptions-desc { font-weight:normal;font-size:.9em;color:#777}
+#sp_list span.separator { display:block; height:26px; margin:5px 0; }
+#sp_list span.big { background:transparent url('../images/menu_big_separator.png') no-repeat top center }
+#sp_list span.small { background:transparent url('../images/menu_sm_separator.png') no-repeat top center }
+
+/*------------------------------------------------------------------
+	Misc
+-------------------------------------------------------------------*/
+.sp_tag {font-size:.9em;color:#2e6181;text-align:center;}
+.sp_tag a, .sp_tag a:hover {background-color:transparent; color:#5697bf}
+
+/*------------------------------------------------------------------
+	IE7 Hack
+-------------------------------------------------------------------*/
+*:first-child+html #om_menu dl {overflow:visible;}
+
